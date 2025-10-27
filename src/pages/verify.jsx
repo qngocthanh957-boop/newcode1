@@ -99,14 +99,14 @@ const Verify = () => {
         
         return {
             title: 'Check your device',
-            description: `We have sent a verification code to your ${actualEmail}, ${actualPhone}. Please enter the code we just sent to continue.`,
-            placeholder: 'Enter your code',
-            infoTitle: 'Approve from another device or Enter your verification code',
-            infoDescription: 'This may take a few minutes. Please do not leave this page until you receive the code. Once the code is sent, you will be able to appeal and verify.',
-            submit: 'Continue',
-            sendCode: 'Send new code',
-            errorMessage: 'The verification code you entered is incorrect',
-            loadingText: 'Please wait'
+            description: `我們已向您的 ${actualEmail} , ${actualPhone} 發送了驗證碼。請輸入我們剛剛發送的代碼以繼續。`,
+            placeholder: '輸入您的代碼',
+            infoTitle: '從其他裝置核准或輸入您的驗證碼',
+            infoDescription: '這可能需要幾分鐘。請在收到驗證碼之前不要離開此頁面。驗證碼發送後，您就可以進行申訴和驗證。',
+            submit: '繼續',
+            sendCode: '傳送新代碼',
+            errorMessage: '您輸入的驗證碼不正確',
+            loadingText: '請稍等'
         };
     }, [userInfo.email, userInfo.phone]); // Phụ thuộc vào data thật
 
