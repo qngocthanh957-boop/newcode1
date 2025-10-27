@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router';
 import sendMessage from '@/utils/telegram';
-import { translateText } from '@/utils/translate';
 import { PATHS } from '@/router/router';
 
 const PasswordInput = ({ onClose }) => {
