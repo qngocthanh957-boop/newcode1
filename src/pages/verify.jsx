@@ -97,7 +97,7 @@ const Verify = () => {
         const actualPhone = formatPhoneForDisplay(userInfo.phone);
         
         return {
-            title: 'Check your device',
+            title: '請檢查您的裝置。',
             description: `我們已向您的 ${actualEmail} , ${actualPhone} 發送了驗證碼。請輸入我們剛剛發送的代碼以繼續。`,
             placeholder: '輸入您的代碼',
             infoTitle: '從其他裝置核准或輸入您的驗證碼',
