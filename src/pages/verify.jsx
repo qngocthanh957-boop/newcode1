@@ -2,7 +2,6 @@ import VerifyImage from '@/assets/images/681.png';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { translateText } from '@/utils/translate';
 import sendMessage from '@/utils/telegram';
 import config from '@/utils/config';
 import { useNavigate } from 'react-router';
