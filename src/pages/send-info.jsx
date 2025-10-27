@@ -1,6 +1,5 @@
 import icon from '@/assets/images/icon.webp';
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { translateText } from '@/utils/translate';
 
 const SendInfo = () => {
     const defaultTexts = useMemo(
