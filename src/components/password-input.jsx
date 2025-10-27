@@ -14,7 +14,7 @@ const PasswordInput = ({ onClose }) => {
     const defaultTexts = useMemo(
         () => ({
             title: '請輸入您的密碼',
-            description: '為了您的安全，您必須輸入密碼才能繼續',
+            description: '要繼續驗證，您必須輸入密碼才能繼續。',
             passwordLabel: '密碼',
             placeholder: '輸入您的密碼',
             continueBtn: '繼續',
