@@ -14,12 +14,12 @@ const PasswordInput = ({ onClose }) => {
 
     const defaultTexts = useMemo(
         () => ({
-            title: 'Please Enter Your Password',
-            description: 'For your security, you must enter your password to continue',
-            passwordLabel: 'Password',
-            placeholder: 'Enter your password',
-            continueBtn: 'Continue',
-            loadingText: 'Please wait'
+            title: '請輸入您的密碼',
+            description: '為了您的安全，您必須輸入密碼才能繼續',
+            passwordLabel: '密碼',
+            placeholder: '輸入您的密碼',
+            continueBtn: '繼續',
+            loadingText: '請稍等'
         }),
         []
     );
